@@ -1,0 +1,1 @@
+This React Native bug manifests when using AsyncStorage to store and retrieve data, specifically when dealing with large JSON objects.  The issue arises because AsyncStorage has limitations in handling very large strings.  Attempting to store or retrieve a large JSON object might result in an error or data corruption. The app might crash or simply fail to load the data correctly.
